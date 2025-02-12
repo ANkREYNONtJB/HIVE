@@ -18,3 +18,31 @@ The project's primary objectives are:
 - **Emergence & Evolution Analysis:** Build tools to analyze emergence patterns, coherence metrics, and evolutionary trajectories over time.
 - **Interactive Exploration:** Provide visualization tools (using Plotly and Dash) to explore complex state spaces and dynamics in real time.
 - **Progressive Learning & Adaptation:** Develop a network that learns progressively, adapting its representations from mathematical summations to quantum state mappings.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have [Python 3.8+](https://www.python.org/downloads/) installed along with [Git](https://git-scm.com/downloads).
+
+### Installation
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/ANkREYNONtJB/HIVE.git
+    cd HIVE
+    ```
+
+2. Create a virtual environment and install dependencies:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+    pip install -r requirements.txt
+    ```
+
+### Running the Project
+
+- **Launch the Visualization Dashboard:**  
+  Run the main application:
+  ```bash
+  python main.py
